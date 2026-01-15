@@ -1,0 +1,7 @@
+{
+    "api_base": "http://localhost:11434/v1",
+    "chat_model": "qwen2.5-coder:1.5b",
+    "greenhouse_root": "D:/lucy-robot/data",
+    "database_path": "D:/lucy-robot/data/greenhouse.db",
+    "prompt_path": "D:/lucy-robot/config/system_prompt.txt"
+}
