@@ -1,0 +1,7 @@
+{
+    api_base: http://localhost:11434/v1,
+    chat_model: qwen2.5-coder:1.5b,
+    greenhouse_root: /home/z/greenhouse_code,
+    database_path: /home/z/greenhouse_code/greenhouse.db,
+    prompt_path: /home/z/lucy_brains_config/system_prompt.txt
+}

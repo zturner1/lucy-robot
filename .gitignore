@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Raspberry Pi specific
+*.wav
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.claude/
+
+# Config files with secrets (if any)
+config/secrets.json
+
+# Data files
+data/
+logs/
+*.db
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+.DS_Store
