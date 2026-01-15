@@ -43,7 +43,7 @@ async def get_root():
     """Serve the voice-enabled interface"""
     html_file = Path(__file__).parent / "lucy_voice_toggle.html"
     if html_file.exists():
-        return HTMLResponse(content=html_file.read_text())
+        return HTMLResponse(content=html_file.read_text(encoding='utf-8'))
     return HTMLResponse(content=get_voice_interface_html())
 
 @app.get("/api/status")
